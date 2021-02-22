@@ -12,4 +12,7 @@
 var x = document.getElementById("my-audio");
 function playAudio() {
   x.play();
+}
+function pauseAudio() {
+  x.pause();
 } 
